@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Presupuesto App</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <div class="row">
+                <h1>PRESUPUESTO APP</h1>
+            </div>
+            <div class="presupuesto">
+                <div>
+                    <label for="dato-presupuesto" class="presupuesto-label"><strong>Ingresa Tú
+                            Presupuesto</strong></label>
+                </div>
+                <div>
+                    <input type="number" class="form-control" id="dato-presupuesto" aria-describedby="presupuestolHelp"
+                        required>
+                </div>
+                <div>
+                    <button id="btn-enviar-submit" type="submit" class="btn-verde">Calcular</button>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+            </div>
+            <div class="gasto">
+                <div>
+                    <label for="dato-gasto" class="gasto-label"><strong>Ingresa El Nombre Del Gasto</strong></label>
+                </div>
+                <div>
+                    <input type="number" class="form-control" id="datogasto" value="" aria-describedby="dato-gastoHelp"
+                        required>
+                </div>
+                <div>
+                    <label for="cantidad-gasto" class="cantidad-label"><strong>Ingresa La Cantidad Del
+                            Gasto</strong></label>
+                </div>
+                <div>
+                    <input type="number" class="form-control" id="gasto-gasto" aria-describedby="cantidad-gastoHelp"
+                        required>
+                </div>
+                <div>
+                    <button id="btn-anadir-submit" type="submit" class="btn-rosa">Añadir Gasto</button>
+                </div>
+            </div>
+        </section>
+        <section class="container-table">
+            <div>
+                <table class="tabla">
+                    <tr>
+                        <th class="Presupuesto">PRESUPUESTO</th>
+                        <th class="Gastos">GASTOS</th>
+                        <th class="Saldo">SALDO</th>
+                    </tr>
+                    <tr>
+                        <td class="presu">$ 0</td>
+                        <td class="gastos">$ 0</td>
+                        <td class="saldo">$ 0</td>
+                    </tr>
+                </table>
+                <table class="total">
+                    <tr>
+                        <th>Gasto</th>
+                        <th class="valor">Valor</th>
+                    </tr>
+                </table>
+                <hr class="hr" style="width: 330px">
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

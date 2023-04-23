@@ -1,0 +1,972 @@
+*html{
+    margin: 0;
+    padding: 0%;
+}
+/* main{
+   margin-left: 550px;
+   margin-top: 250px;
+
+}
+
+
+.container{
+    width: 20%;
+    height: 10%;;
+   
+}
+.presupuesto{
+    padding: 3%;
+    display: grid;
+    height: 80px;
+    background-color: rgb(193, 229, 193);
+    border: 2px solid #15b010;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#dato-presupuesto{
+    width: 98%;
+     border: 2px solid #15b010;
+      border-radius: 5px 5px 5px 5px;
+       background-color: rgb(193, 229, 193);
+      
+}
+
+
+.btn-verde:hover{
+      background-color: rgb(193, 229, 193);
+    color: #15b010;
+    border: 2px solid #15b010;
+     border-radius: 5px 5px 5px 5px;
+
+}
+ 
+
+.gasto{
+    padding: 3%;
+    display: grid;
+    height: 120px;
+    background-color: rgb(224, 188, 183);
+    border: 2px solid #b01b10;
+    border-radius: 5px 5px 5px 5px; 
+    margin-top: 20px;
+}
+
+#dato-gasto{
+     width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+.gasto-label{
+    display: flex;
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#gasto-gasto{
+      width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+
+.cantidad-label{
+    display: flex;
+    display: grid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btn-anadir-submit{
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+
+
+}
+
+#btn-anadir-submit:hover  {
+   color: #b01b10; 
+  border: 2px solid #b01b10;
+  background-color: rgb(224, 188, 183);
+
+}
+
+
+.tabla{
+    display: flex;
+    display:grid;
+    
+}
+.Presupuesto{
+     display: flex;
+    margin-right: 30px;
+}
+
+
+
+.Saldo{
+    display: flex;
+    margin-left: 50px;
+}
+
+.saldo{
+    display: flex;
+    margin-left: 50px;
+}
+
+.total{
+    margin-top: 100px;
+}
+
+.valor{
+    display: flex;
+    margin-left: 100px;
+}
+
+.container-table{
+    width: 20%;
+    height: 10%;
+    margin-left: 450px;
+    margin-top: -280px;
+   
+}
+
+*/
+
+
+
+@media screen and (min-width: 576px),(max-width: 576px){
+
+    main{
+   margin-left: 110px;
+   margin-top: 50px;
+   width: 250%;
+
+}
+
+/* ingresa tu presupuesto */
+.container{
+    width: 20%;
+    height: 10%;;
+   
+}
+.presupuesto{
+    padding: 3%;
+    display: grid;
+    height: 80px;
+    background-color: rgb(193, 229, 193);
+    border: 2px solid #15b010;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#dato-presupuesto{
+    width: 98%;
+     border: 2px solid #15b010;
+      border-radius: 5px 5px 5px 5px;
+       background-color: rgb(193, 229, 193);
+      
+}
+
+
+.btn-verde:hover{
+      background-color: rgb(193, 229, 193);
+    color: #15b010;
+    border: 2px solid #15b010;
+     border-radius: 5px 5px 5px 5px;
+
+}
+ /* termino del presupuesto */
+
+ /* Inicio Gasto */
+
+.gasto{
+    padding: 3%;
+    display: grid;
+    height: 120px;
+    background-color: rgb(224, 188, 183);
+    border: 2px solid #b01b10;
+    border-radius: 5px 5px 5px 5px; 
+    margin-top: 20px;
+}
+
+#datogasto{
+     width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+.gasto-label{
+    display: flex;
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#gasto-gasto{
+      width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+
+.cantidad-label{
+    display: flex;
+    display: grid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btn-anadir-submit{
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+
+
+}
+
+#btn-anadir-submit:hover  {
+   color: #b01b10; 
+  border: 2px solid #b01b10;
+  background-color: rgb(224, 188, 183);
+
+}
+
+/* termino Gasto */
+
+/* inicio tabla */
+.tabla{
+    display: flex;
+    display:grid;
+    
+}
+.Presupuesto{
+     display: flex;
+    margin-right: 30px;
+}
+
+
+
+.Gastos{
+     
+    display: flex;
+    margin-left: 140px;
+    margin-top: -20px;
+}
+
+.Saldo{
+    margin-top: -40px;
+    display: flex;
+    margin-left: 230px;
+}
+
+
+.presu{
+    display: flex;
+    margin-left: 0px;
+}
+
+.gastos{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 140px;
+}
+
+.saldo{
+    display: flex;
+    margin-top: -5px;
+    margin-left: 230px;
+}
+
+.total{
+    margin-top: 100px;
+}
+
+.valor{
+    display: flex;
+    margin-left: 100px;
+}
+
+.container-table{
+    width: 20%;
+    height: 10%;
+    margin-left: 0px;
+    margin-top: 20px;
+   
+}
+
+
+/* termino tabla */
+
+
+
+
+}
+    
+
+
+
+/*Breakpoint MD*/
+@media screen and (max-width: 768px),(min-width: 768px){
+ main{
+   margin-left: 200px;
+   margin-top: 20px;
+
+}
+
+
+.container{
+    width: 20%;
+    height: 10%;
+   
+}
+.presupuesto{
+    padding: 3%;
+    display: grid;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(193, 229, 193);
+    border: 2px solid #15b010;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#dato-presupuesto{
+    width: 98%;
+     border: 2px solid #15b010;
+      border-radius: 5px 5px 5px 5px;
+       background-color: rgb(193, 229, 193);
+      
+}
+
+
+.btn-verde:hover{
+      background-color: rgb(193, 229, 193);
+    color: #15b010;
+    border: 2px solid #15b010;
+     border-radius: 5px 5px 5px 5px;
+
+}
+ 
+
+.gasto{
+    padding: 3%;
+    display: grid;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(224, 188, 183);
+    border: 2px solid #b01b10;
+    border-radius: 5px 5px 5px 5px; 
+    margin-top: 20px;
+}
+
+#datogasto{
+     width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+.gasto-label{
+    display: flex;
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#gasto-gasto{
+      width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+
+.cantidad-label{
+    display: flex;
+    display: grid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btn-anadir-submit{
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+
+
+}
+
+#btn-anadir-submit:hover  {
+   color: #b01b10; 
+  border: 2px solid #b01b10;
+  background-color: rgb(224, 188, 183);
+
+}
+
+
+.tabla{
+
+    display: inline-block;
+    
+}
+.Presupuesto{
+     display: flex;
+    margin-right: 30px;
+}
+
+
+.Gastos{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
+
+
+}
+
+.presu{
+    display: flex;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: -170px;
+  
+}
+.Saldo{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.gastos{
+    display:flex;
+    display: inline-block;
+    margin-left: -20px;
+    margin-top: -90px;
+}
+.saldo{
+    display: flex;
+    margin-left: 0px;
+    display: inline-block;
+    margin-left: -20px;
+}
+
+.total{
+    margin-top: 10px;
+}
+
+.valor{
+    display: flex;
+    margin-left: 100px;
+}
+
+.container-table{
+    width: 20%;
+    height: 10%;
+    margin-left: 0px;
+    margin-top: 10px;
+   
+}
+}
+
+@media screen and (min-width: 992px){
+*html{
+    margin: 0;
+    padding: 0%;
+}
+main{
+   margin-left: 100px;
+   margin-top: 50px;
+
+}
+
+/* ingresa tu presupuesto */
+.container{
+    width: 30%;
+    height: 10%;
+   
+}
+.presupuesto{
+    padding: 3%;
+    display: grid;
+    height: 80px;
+     width: 300px;
+    background-color: rgb(193, 229, 193);
+    border: 2px solid #15b010;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#dato-presupuesto{
+    width: 98%;
+     border: 2px solid #15b010;
+      border-radius: 5px 5px 5px 5px;
+       background-color: rgb(193, 229, 193);
+      
+}
+
+
+.btn-verde:hover{
+      background-color: rgb(193, 229, 193);
+    color: #15b010;
+    border: 2px solid #15b010;
+     border-radius: 5px 5px 5px 5px;
+
+}
+ /* termino del presupuesto */
+
+ /* Inicio Gasto */
+
+.gasto{
+    padding: 3%;
+    display: grid;
+    height: 130px;
+    width: 300px;
+    background-color: rgb(224, 188, 183);
+    border: 2px solid #b01b10;
+    border-radius: 5px 5px 5px 5px; 
+    margin-top: 20px;
+}
+
+#datogasto{
+     width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+.gasto-label{
+    display: flex;
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#gasto-gasto{
+      width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+
+.cantidad-label{
+    display: flex;
+    display: grid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btn-anadir-submit{
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+
+
+}
+
+#btn-anadir-submit:hover  {
+   color: #b01b10; 
+  border: 2px solid #b01b10;
+  background-color: rgb(224, 188, 183);
+
+}
+
+/* termino Gasto */
+
+/* inicio tabla */
+.tabla{
+    display: flex;
+    display:grid;
+    
+}
+.Presupuesto{
+     display: flex;
+    margin-right: 30px;
+}
+.Gastos{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+
+.Saldo{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 250px;
+}
+
+.presu{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.gastos{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+.saldo{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 250px;
+}
+
+.total{
+    margin-top: 100px;
+}
+
+.valor{
+    display: flex;
+    margin-left: 100px;
+}
+
+.container-table{
+    width: 20%;
+    height: 10%;
+    margin-left: 400px;
+    margin-top: -320px;
+   
+}
+.hr{
+    margin-left: 0px;
+}
+
+/* termino tabla */ 
+}
+  
+  
+  @media screen and (min-width: 1200px){
+*html{
+    margin: 0;
+    padding: 0%;
+}
+main{
+   margin-left: 200px;
+   margin-top: 150px;
+
+}
+
+/* ingresa tu presupuesto */
+.container{
+    width: 30%;
+    height: 10%;;
+   
+}
+.presupuesto{
+    padding: 3%;
+    display: grid;
+    height: 80px;
+    background-color: rgb(193, 229, 193);
+    border: 2px solid #15b010;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#dato-presupuesto{
+    width: 98%;
+     border: 2px solid #15b010;
+      border-radius: 5px 5px 5px 5px;
+       background-color: rgb(193, 229, 193);
+      
+}
+
+
+.btn-verde:hover{
+      background-color: rgb(193, 229, 193);
+    color: #15b010;
+    border: 2px solid #15b010;
+     border-radius: 5px 5px 5px 5px;
+
+}
+ /* termino del presupuesto */
+
+ /* Inicio Gasto */
+
+.gasto{
+    padding: 3%;
+    display: grid;
+    height: 120px;
+    background-color: rgb(224, 188, 183);
+    border: 2px solid #b01b10;
+    border-radius: 5px 5px 5px 5px; 
+    margin-top: 20px;
+}
+
+#datogasto{
+     width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+.gasto-label{
+    display: flex;
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#gasto-gasto{
+      width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+
+.cantidad-label{
+    display: flex;
+    display: grid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btn-anadir-submit{
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+
+
+}
+
+#btn-anadir-submit:hover  {
+   color: #b01b10; 
+  border: 2px solid #b01b10;
+  background-color: rgb(224, 188, 183);
+
+}
+
+/* termino Gasto */
+
+/* inicio tabla */
+.tabla{
+    display: flex;
+    display:grid;
+    
+}
+.Presupuesto{
+     display: flex;
+    margin-right: 30px;
+}
+.Gastos{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+
+
+.Saldo{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 250px;
+}
+
+.presu{
+    display: flex;
+    margin-left: 0px;
+}
+
+.gastos{
+      display: flex;
+      margin-top: -20px;
+    margin-left: 150px;
+}
+
+.saldo{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 250px;
+}
+
+.total{
+    margin-top: 100px;
+}
+
+.valor{
+    display: flex;
+    margin-left: 100px;
+}
+
+.container-table{
+    width: 20%;
+    height: 10%;
+    margin-left: 400px;
+    margin-top: -340px;
+   
+}
+
+
+/* termino tabla */ 
+}
+
+
+  @media screen and (min-width: 1400px){
+
+    *html{
+    margin: 0;
+    padding: 0%;
+}
+main{
+   margin-left: 350px;
+   margin-top: 250px;
+
+}
+
+/* ingresa tu presupuesto */
+.container{
+    width: 20%;
+    height: 10%;;
+   
+}
+.presupuesto{
+    padding: 3%;
+    display: grid;
+    height: 80px;
+    background-color: rgb(193, 229, 193);
+    border: 2px solid #15b010;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#dato-presupuesto{
+    width: 98%;
+     border: 2px solid #15b010;
+      border-radius: 5px 5px 5px 5px;
+       background-color: rgb(193, 229, 193);
+      
+}
+
+
+.btn-verde:hover{
+      background-color: rgb(193, 229, 193);
+    color: #15b010;
+    border: 2px solid #15b010;
+     border-radius: 5px 5px 5px 5px;
+
+}
+ /* termino del presupuesto */
+
+ /* Inicio Gasto */
+
+.gasto{
+    padding: 3%;
+    display: grid;
+    height: 120px;
+    background-color: rgb(224, 188, 183);
+    border: 2px solid #b01b10;
+    border-radius: 5px 5px 5px 5px; 
+    margin-top: 20px;
+}
+
+#datogasto{
+     width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+.gasto-label{
+    display: flex;
+    display: grid;
+    margin-bottom: 5px;
+}
+
+#gasto-gasto{
+      width: 98%;
+     border: 2px solid #b01b10;
+     border-radius: 5px 5px 5px 5px;
+    background-color: rgb(224, 188, 183);
+
+
+}
+
+.cantidad-label{
+    display: flex;
+    display: grid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#btn-anadir-submit{
+  margin-top: 5px;
+  border-radius: 5px 5px 5px 5px;
+
+
+}
+
+#btn-anadir-submit:hover  {
+   color: #b01b10; 
+  border: 2px solid #b01b10;
+  background-color: rgb(224, 188, 183);
+
+}
+
+/* termino Gasto */
+
+/* inicio tabla */
+.tabla{
+    display: flex;
+    display:grid;
+    
+}
+.Presupuesto{
+     display: flex;
+    margin-right: 30px;
+}
+
+
+.Gastos{
+    display: flex;
+    display: grid;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.Saldo{
+    display: flex;
+    margin-top: -20px;
+    margin-left: 280px;
+
+}
+
+.gastos{
+     display: flex;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+
+.presu{
+      display: flex;
+      margin-top: 5px;
+}
+.saldo{
+    display: flex;
+    margin-left: 280px;
+    margin-top: -20px;
+}
+
+.total{
+    margin-top: 100px;
+}
+
+.valor{
+    display: flex;
+    margin-left: 100px;
+}
+
+.container-table{
+    width: 20%;
+    height: 10%;
+    margin-left: 400px;
+    margin-top: -320px;
+   
+}
+
+
+/* termino tabla */
+}
