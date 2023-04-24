@@ -937,6 +937,10 @@ main{
    
 }
 
+#valorCinco{
+    display: flex; 
+    margin-left: 110px;
+}
 
 /* termino tabla */
 }

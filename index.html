@@ -26,7 +26,8 @@
                         required>
                 </div>
                 <div>
-                    <button id="btn-enviar-submit" type="submit" class="btn-verde">Calcular</button>
+                    <button id="btn-enviar-submit" type="submit" class="btn-verde"
+                        onclick="mostrarPresupuesto()">Calcular</button>
                 </div>
             </div>
         </section>
@@ -38,11 +39,11 @@
                     <label for="dato-gasto" class="gasto-label"><strong>Ingresa El Nombre Del Gasto</strong></label>
                 </div>
                 <div>
-                    <input type="number" class="form-control" id="datogasto" value="" aria-describedby="dato-gastoHelp"
+                    <input type="text" class="form-control" id="datogasto" value="" aria-describedby="dato-gastoHelp"
                         required>
                 </div>
                 <div>
-                    <label for="cantidad-gasto" class="cantidad-label"><strong>Ingresa La Cantidad Del
+                    <label for="gasto-gasto" class="cantidad-label"><strong>Ingresa La Cantidad Del
                             Gasto</strong></label>
                 </div>
                 <div>
@@ -50,7 +51,8 @@
                         required>
                 </div>
                 <div>
-                    <button id="btn-anadir-submit" type="submit" class="btn-rosa">Añadir Gasto</button>
+                    <button id="btn-anadir-submit" type="submit" class="btn-rosa" onclick="mostrarGastos() ">Añadir
+                        Gasto</button>
                 </div>
             </div>
         </section>
@@ -63,9 +65,9 @@
                         <th class="Saldo">SALDO</th>
                     </tr>
                     <tr>
-                        <td class="presu">$ 0</td>
-                        <td class="gastos">$ 0</td>
-                        <td class="saldo">$ 0</td>
+                        <td id="valorUno" class="presu">$ 0</td>
+                        <td id="valorDos" class="gastos">$ 0</td>
+                        <td id="valorTres" class="saldo">$ 0</td>
                     </tr>
                 </table>
                 <table class="total">
@@ -75,6 +77,12 @@
                     </tr>
                 </table>
                 <hr class="hr" style="width: 330px">
+                <table>
+                    <tr id="ul">
+                        <td id="valorCuatro"></td>
+                        <td id="valorCinco"></td>
+                    </tr>
+                </table>
             </div>
         </section>
 
