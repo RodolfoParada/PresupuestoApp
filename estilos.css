@@ -942,5 +942,19 @@ main{
     margin-left: 110px;
 }
 
-/* termino tabla */
+#btn-eliminar:hover{
+    display: flex;
+  border: 2px solid #b01b10;
+    color: #b01b10;
+     background-color: rgb(224, 188, 183);
+   
+}
+
+#btn-eliminar{
+    display: flex;
+    margin-left: 250px;
+    margin-top: -23px;
+}
+
+ /* termino tabla */
 }
