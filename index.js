@@ -8,12 +8,12 @@ $(document).ready(function () {
 
     $("#btn-enviar-submit").on("click", function () {
 
-        const presupuestoPorAgregar = $("#dato-presupuesto").val();
-        if (presupuestoPorAgregar === undefined || presupuestoPorAgregar <= 0) {
+        const agregarPresupuesto = $("#dato-presupuesto").val();
+        if (agregarPresupuesto === undefined || agregarPresupuesto <= 0) {
             alert("Debe ingresar un presupuesto positivo mayor que 0");
             return;
         }
-        agregarPresupuesto(parseInt(presupuestoPorAgregar));
+        Presupuesto(parseInt(agregarPresupuesto));
         $("#dato-presupuesto").val("");
     });
 
@@ -75,7 +75,7 @@ $(document).ready(function () {
         };
     };
 
-    const agregarPresupuesto = (presupuesto) => {
+    const Presupuesto = (presupuesto) => {
         if (valores.presupuesto === "" || valores.presupuesto === undefined || valores.presupuesto === null) {
             valores.presupuesto = presupuesto;
             $("#valorUno").text(valores.presupuesto);
@@ -94,14 +94,14 @@ $(document).ready(function () {
             html += `
         <tr>
             <td>${gasto.nombre}</td>
-            <td>${gasto.valor}</td>
-            <td><button type="button" class="button btn-eliminar" data-index="${index}"></button></td>
+            <td id="valorGasto">${gasto.valor}</td>
+            <td><button type="button" class="button-eliminar" data-index="${index}">Eliminar</button></td>
         </tr>
         `;
         });
         $("#tabla-gasto").html(html);
 
-        $("#btn-eliminar").click(function () {
+        $(".button-eliminar").click(function () {
             const index = $(this).data("index");
             let valor = gastos[index].valor;
             gastos.splice(index, 0);

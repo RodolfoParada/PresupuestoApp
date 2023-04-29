@@ -244,13 +244,13 @@
 .gastos{
     display: flex;
     margin-top: -20px;
-    margin-left: 140px;
+    margin-left: -500px;
 }
 
 .saldo{
     display: flex;
     margin-top: -5px;
-    margin-left: 230px;
+    margin-left: -200px;
 }
 
 .total{
@@ -270,6 +270,19 @@
    
 }
 
+.button-eliminar {
+    display: flex;
+    margin-left: 100px;
+    height: 25px;
+    width: -60px;
+
+}
+
+#valorGasto{
+    display: flex;
+  
+    margin-left: 120px;
+}
 
 /* termino tabla */
 
@@ -440,6 +453,20 @@
     margin-top: 10px;
    
 }
+
+.button-eliminar {
+    display: flex;
+    margin-left: 70px;
+    height: 25px;
+    width: 70px;
+
+}
+
+#valorGasto{
+    display: flex;
+  
+    margin-left: 70px;
+}
 }
 
 @media screen and (min-width: 992px){
@@ -607,6 +634,20 @@ main{
     margin-left: 0px;
 }
 
+
+.button-eliminar {
+    display: flex;
+    margin-left: 70px;
+    height: 25px;
+    width: 70px;
+
+}
+
+#valorGasto{
+    display: flex;
+  
+    margin-left: 80px;
+}
 /* termino tabla */ 
 }
   
@@ -770,6 +811,19 @@ main{
    
 }
 
+.button-eliminar {
+    display: flex;
+    margin-left: 100px;
+    height: 25px;
+    width: 70px;
+
+}
+
+#valorGasto{
+    display: flex;
+  
+    margin-left: 90px;
+}
 
 /* termino tabla */ 
 }
@@ -956,5 +1010,18 @@ main{
     margin-top: -23px;
 }
 
+.button-eliminar {
+    display: flex;
+    margin-left: 100px;
+    height: 25px;
+    width: 70px;
+
+}
+
+#valorGasto{
+    display: flex;
+  
+    margin-left: 90px;
+}
  /* termino tabla */
 }
