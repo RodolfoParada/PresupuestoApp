@@ -22,7 +22,7 @@ $(document).ready(function () {
         let nombreGasto = $("#datogasto").val();
         let gastosPorAgregar = $("#gasto-gasto").val();
         if (nombreGasto === undefined || nombreGasto === "" || nombreGasto === null || gastosPorAgregar === undefined || gastosPorAgregar <= 0) {
-            alert("Debe ingresar un nombre y un valor de gasto positivo mayor que 0");
+            alert("Debe ingresar un nombre y un valor mayor que 0");
             return;
         }
         let g = agregarGasto(parseInt(gastosPorAgregar));
